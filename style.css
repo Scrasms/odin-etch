@@ -12,6 +12,17 @@ header {
     display: flex;
     justify-content: center;
     margin-top: 2vh;
+    gap: 2vw;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: yellow;
+    border-color: tan;
+    border-radius: 20px;
 }
 
 .container {
@@ -29,18 +40,4 @@ header {
     background-color: lightgrey;
     aspect-ratio: 1 / 1;
     flex: 0 0 6.25%;
-}
-
-.hovered {
-    background-color: grey;
-}
-
-.rescale-button {
-    height: 50px;
-    width: 100px;
-    font-size: 15px;
-    font-weight: bold;
-    background-color: yellow;
-    border-color: tan;
-    border-radius: 20px;
 }
